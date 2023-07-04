@@ -56,7 +56,7 @@ const toggleReminder = (id) => {
       
       <Routes>
       <Route
-      path='/Task-Tracker'
+      path='/Task-Tracker/'
       element={
         <>
         {showAddTask && <AddTask onAdd={addTask}/> }
